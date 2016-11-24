@@ -11,6 +11,9 @@ public class Main {
     static boolean bool = true;
     static boolean bool2 = false;
 
+    static String st = "Hello DevColibri.com";
+    static char c = 'd';
+
      public static void main(String[] args){
 
          System.out.println("byte: " + b);
@@ -22,6 +25,10 @@ public class Main {
          System.out.println("double: " + db);
          System.out.println(bool);
          System.out.println(bool2);
+
+         System.out.println(st);
+         System.out.println(c);
+
      }
 
 }
