@@ -1,3 +1,5 @@
+import com.sun.xml.internal.bind.v2.runtime.reflect.opt.Const;
+
 public class Main {
 
     static byte b = 5;
@@ -13,23 +15,15 @@ public class Main {
 
     static String st = "Hello DevColibri.com";
     static char c = 'd';
+    static final int CONST = 55;
 
      public static void main(String[] args){
-//Рядок закоментований для наведення прикладу
-         //System.out.println("byte: " + b);
-         /*System.out.println("short: " + sh);
-         System.out.println("int: " + it);
-         System.out.println("long: " + l);
+         System.out.println(CONST);
 
-         System.out.println("float: " + fl);
-         System.out.println("double: " + db);
-         System.out.println(bool);*/
-         System.out.println(bool2);
 
-         System.out.println(st);
-         System.out.println(c);
 
      }
+
 
 }
 
