@@ -1,28 +1,26 @@
-import com.sun.xml.internal.bind.v2.runtime.reflect.opt.Const;
-
 public class Main {
 
-    static byte b = 5;
-    static short sh = 8;
-    static int it = 99;
-    static long l = 789;
+    static Integer in = 2;
+    static Float fl = 2.6f;
+    static Short s = 3;
+    static Double f = 7.8;
+    static String st = "27";
 
-    static float fl = 2.6f;
-    static double db = 2.6;
+    public static void main(String[] args) {
+        Number n = fl;
+        Number n1 = new Double(2.6);
+        Integer r1 = n.intValue();
+        Integer r2 = n1.intValue();
+        Number n3 = f;
+        int ns = n3.intValue();
 
-    static boolean bool = true;
-    static boolean bool2 = false;
-
-    static String st = "Hello DevColibri.com";
-    static char c = 'd';
-    static final int CONST = 55;
-
-     public static void main(String[] args){
-         System.out.println(CONST);
+        System.out.println(r1);
 
 
 
-     }
+
+
+    }
 
 
 }
