@@ -15,15 +15,15 @@ public class Main {
     static char c = 'd';
 
      public static void main(String[] args){
-
-         System.out.println("byte: " + b);
-         System.out.println("short: " + sh);
+//Рядок закоментований для наведення прикладу
+         //System.out.println("byte: " + b);
+         /*System.out.println("short: " + sh);
          System.out.println("int: " + it);
          System.out.println("long: " + l);
 
          System.out.println("float: " + fl);
          System.out.println("double: " + db);
-         System.out.println(bool);
+         System.out.println(bool);*/
          System.out.println(bool2);
 
          System.out.println(st);
