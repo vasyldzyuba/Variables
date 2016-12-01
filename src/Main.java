@@ -1,16 +1,29 @@
 public class Main {
 
-  public static void main(String[] args){
-  int a = 4;
-  double b = 5.4;
+    static boolean bool = true;
+    static int a = 5;
 
 
+    public static void main(String[] args) {
 
-      System.out.println(Math.cos(b) + a);
+        switch (6) {
+            case 5:
+                System.out.println("5");
+                break;
 
 
-  }
+            case 6:
+                System.out.println("6");
+                break;
+            case 1:
+                System.out.println("1");
+                break;
+
+        }
+    }
+
 }
+
 
 
 
