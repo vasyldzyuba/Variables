@@ -1,15 +1,17 @@
 public class Main {
 
     public static void main(String[] args) {
+        int val = calcSum(2, 9);
+        System.out.println(val);
+    }
 
-        String[] st = "Hello World".split(" ");
+    static int calcSum(int a, int b) {
+        int sum = a + b;
 
-
-        for (String s : st){
-            System.out.println(s);
-        }
+        return sum;
     }
 }
+
 
 
 
