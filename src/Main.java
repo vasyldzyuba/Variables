@@ -1,15 +1,14 @@
 public class Main {
 
-  public  static  void  main(String[] args){
-  int a = 5;
-int b = 5;
+    public static void main(String[] args) {
 
-  boolean bool = true;
+        String[] st = "Hello World".split(" ");
 
-  if(!( a == b && || bool)){
-      System.out.println("Це істина!");
-  }
-  }
+
+        for (String s : st){
+            System.out.println(s);
+        }
+    }
 }
 
 
